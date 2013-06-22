@@ -45,5 +45,7 @@ public class Node {
 				System.out.print(" -> ");
 			temp = temp.next;
 		}
+		
+		System.out.println();
 	}
 }
