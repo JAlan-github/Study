@@ -48,4 +48,13 @@ public class Node {
 		
 		System.out.println();
 	}
+	
+	public Node tail() {
+		Node temp = this;
+		
+		while(temp.next != null)
+			temp = temp.next;
+		
+		return temp;
+	}
 }
